@@ -2,23 +2,18 @@ package app;
 
 public class Main {
 
-    private static final double CONV_K = 2.20462;
-
     public static void main(String[] args) {
-        System.out.println("App for measures converting..");
-        System.out.println("Version 1.0");
-        double kgs = 5;
-        double pnds = 12;
-        double pounds = convKgsToPounds(kgs);
-        double kilos = conPoundsToKgs(pnds);
-        System.out.println("Result is " + pounds + " pounds and " + kilos + " kgs..");
-    }
+        Dog dogBobik = new Dog("Бобік");
+        Cat catMurzik = new Cat("Мурзик");
 
-    private static double convKgsToPounds(double kgs) {
-        return kgs * CONV_K;
-    }
+        dogBobik.run(150);
+        dogBobik.swim(10);
 
-    private static double conPoundsToKgs(double pnds) {
-        return pnds / CONV_K;
+        catMurzik.run(200);
+        catMurzik.swim(5);
+
+        System.out.println("Кількість створених тварин: " + Animal.getAnimalCount());
+        System.out.println("Кількість створених собак: " + Dog.getDogCount());
+        System.out.println("Кількість створених котів: " + Cat.getCatCount());
     }
 }
