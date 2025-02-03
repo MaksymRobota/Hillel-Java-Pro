@@ -1,0 +1,11 @@
+the -> 44
+and -> 21
+was -> 16
+frank -> 15
+kevin -> 13
+uncle -> 12
+with -> 8
+his -> 8
+said -> 8
+she -> 7
+Total unique words: 400

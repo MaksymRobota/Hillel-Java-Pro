@@ -1,0 +1,6 @@
+text -> 2
+some -> 1
+test -> 1
+for -> 1
+good -> 1
+Total unique words: 6

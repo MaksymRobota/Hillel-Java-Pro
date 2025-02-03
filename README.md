@@ -16,6 +16,7 @@
 - [x] h7. Coffee Order Board: Manage a queue system for orders.
 - [x] h8. Stream API.
 - [x] h9. Exceptions.
+- [x] h11. Parser (Read File -> analyze text -> write statistic File) FileInputStream/BufferedWriter/outputFilePath.
 
 ## License
 
